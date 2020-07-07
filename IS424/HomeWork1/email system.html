@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css.map">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="main.js"></script>
+    <title>HomeWork 1</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbaar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">Calculater <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="Factorial loop.html">Factorial loop</a>
+            <a class="nav-item nav-link" href="Factorial recursive.html">Factorial recursive</a>
+            <a class="nav-item nav-link" href="email system.html">email system</a>
+
+            
+          </div>
+        </div>
+      </nav>
+      <div class="mail col-md-6">
+              <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="To">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">CC</label>
+          <input type="email" class="form-control" placeholder="CC" id="cc">
+
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="Subject">
+
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" type="button" onclick="sendEmail()">Send</button>
+      </form>
+    </div>
+
+    
+</body>
+</html>
